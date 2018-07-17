@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31215" started-at="2018-07-17T06:24:08Z" finished-at="2018-07-17T06:24:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31215" started-at="2018-07-17T06:24:08Z" finished-at="2018-07-17T06:24:39Z">
+      <class name="com.DataDriven.New_Tours_New_User_Registration">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DataDriven.New_Tours_New_User_Registration@1753acfe]" name="setup" is-config="true" duration-ms="11404" started-at="2018-07-17T07:24:08Z" finished-at="2018-07-17T07:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.DataDriven.New_Tours_New_User_Registration@1753acfe]" name="register" duration-ms="287" started-at="2018-07-17T07:24:19Z" finished-at="2018-07-17T07:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="FAIL" signature="UserRegistration()[pri:1, instance:com.DataDriven.New_Tours_New_User_Registration@1753acfe]" name="UserRegistration" duration-ms="18641" started-at="2018-07-17T07:24:19Z" finished-at="2018-07-17T07:24:38Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Cannot get a STRING value from a NUMERIC cell]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:1050)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:404)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:356)
+	at com.DataDriven.New_Tours_New_User_Registration.UserRegistration(New_Tours_New_User_Registration.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegistration -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.DataDriven.New_Tours_New_User_Registration@1753acfe]" name="teardown" is-config="true" duration-ms="860" started-at="2018-07-17T07:24:38Z" finished-at="2018-07-17T07:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DataDriven.New_Tours_New_User_Registration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

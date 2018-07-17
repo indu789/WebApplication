@@ -1,0 +1,10 @@
+package com.NewTours;
+
+public class NewTours_LogInTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

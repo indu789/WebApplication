@@ -1,0 +1,18 @@
+package com.NewTours;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class NewTours_LogInTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  FirefoxDriver driver=new FirefoxDriver();
+driver.get("http://newtours.deamoaut.com");
+driver.findElement(By.name("userName")).sendKeys("tutorial");
+driver.findElement(By.name("password")).sendKeys("tutorial");
+driver.findElement(By.name("login")).click();
+
+	}
+
+}

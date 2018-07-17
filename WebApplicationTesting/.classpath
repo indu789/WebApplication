@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/WebApplicationTesting/Library/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/poi-examples-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/poi-excelant-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/poi-scratchpad-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/ApachePoiJarFiles/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Indumathi/Desktop/InduSelenium/Cucumber Jar Files/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
